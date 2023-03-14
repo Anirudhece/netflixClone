@@ -1,5 +1,5 @@
 # netflixClone
-🎥 Netflix Clone using React 🍿
+## 🎥 Netflix Clone using React 🍿
 This is a project that clones the Netflix website, built using React, the Movie Database API, SCSS, React Icons, Axios, useState, and useEffect.
 
 ## 🚀 Getting Started
