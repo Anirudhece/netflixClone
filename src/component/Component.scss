@@ -1,0 +1,29 @@
+.navbar-container{
+  padding: 10px;
+  background-color: black;
+  display: flex;
+  img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    width: 125px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .navbar-logos{
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    margin-left: auto;
+  }
+  .navbar---components{
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+}
+.footer{
+  display: flex;
+  justify-content: center;
+}

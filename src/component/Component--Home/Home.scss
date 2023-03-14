@@ -1,0 +1,74 @@
+.topContainer{
+  background-color:black;
+  height: 70vh;
+  background-image: url('https://images7.alphacoders.com/124/1241136.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  .topContainer--text{
+    position: absolute;
+    font-family:Aero Matics Pro;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 20px;
+
+    div{
+      margin-top: 15px;
+      width: 200%;
+      font-size: 15px;
+      position: absolute;
+      background-color: transparent;
+      // text-align: center;
+      font-style: italic;
+      color:rgba(245, 245, 245, 0.856);
+      // width: 125%;
+    }
+  }
+
+}
+
+.slider{
+  margin-top: 50px;
+  margin-bottom: 50px;
+   
+  h5{
+    margin-left: 20px;
+    padding-top:30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  
+  .slider-container{
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    background-color:black;
+    display: flex;
+    overflow-x: auto;
+    justify-content: space-evenly;
+
+    .container--card_component{
+      touch-action: pan-y;
+    }
+  }
+
+}
+
+.card-container{
+  
+  margin: 10px;
+  img{
+    margin-top:15px;
+    border-radius: 20px;
+    height: 250px;
+    cursor: pointer;
+  }
+  img:hover{
+    transition:transform 0.5s ;
+    transform: translateY(-5px) scale(1.05);
+  }
+}
