@@ -40,6 +40,12 @@ export default function Home() {
 
   return (
     <>
+      <div className="message">
+        <div>
+          Please open this page on a wider screen (e.g. computer) for the best
+          experience.
+         </div>
+      </div>
       <div className="home-container">
         <Top />
         <Slider data={apiPopularResponse} heading="Popular On Netflix" />
