@@ -72,3 +72,17 @@
     transform: translateY(-5px) scale(1.05);
   }
 }
+.message{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .home-container {
+    display: none;
+    
+  }
+  .message{
+    padding: 50px;
+    text-align: center;
+    display: block;
+  }
+}
